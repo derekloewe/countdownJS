@@ -1,0 +1,41 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    height: 100%;
+}
+
+#cd1{
+    background: #3b3b3b;
+    background: radial-gradient(circle, rgba(59,59,59,1) 0%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    height: 200px;
+    width: 500px;
+    margin: 0px auto;
+}
+
+#countdown1{
+    width: 100%;
+    margin: 0px auto;
+    padding: 50px 0px;
+    color:white;
+    font-size: 6vw;
+}
+
+/*progress bar*/
+.progress{
+    height: 25px;
+    background:lightgrey;
+    position: relative;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.progress > span{
+    display: block;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: red;
+    border-radius: 5px;
+}
